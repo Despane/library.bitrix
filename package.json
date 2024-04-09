@@ -1,0 +1,27 @@
+{
+  "name": "@despane/bitrix",
+  "version": "1.0.0",
+  "description": "Library for Rest API of Bitrix24 with webhooks",
+  "main": "./dist/b24.js",
+  "scripts": {
+    "start": "node bitrix.js"
+  },
+  "keywords": [
+    "bitrix",
+    "Rest API"
+  ],
+  "author": "Despane",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Despane/library.bitrix"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "http-build-query": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/http-build-query": "^0.7.5",
+    "@types/node": "^20.12.6"
+  }
+}
